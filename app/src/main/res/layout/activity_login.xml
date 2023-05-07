@@ -56,20 +56,19 @@
             android:textSize = "14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <Button
+        android:id="@+id/idBtnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginTop="320dp"
-        android:textColor="@color/white"
-        android:background="@drawable/custom_button_back"
         android:layout_below="@id/idTILPassword"
-        android:id="@+id/idBtnLogin"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/custom_button_back"
         android:text="Login"
         android:textAllCaps="false"
-        />
-
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/idTVRegister"
